@@ -1,0 +1,26 @@
+{
+  "name": "faceregui",
+  "version": "1.0.0",
+  "description": "This is the server for the face rec module developed by AF-04 Team",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetesh06/FaceRecUi.git"
+  },
+  "keywords": [
+    "Face",
+    "Recognition"
+  ],
+  "author": "Meetesh Mehta, Rhitabrat Pokharel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetesh06/FaceRecUi/issues"
+  },
+  "homepage": "https://github.com/meetesh06/FaceRecUi#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

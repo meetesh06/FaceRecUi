@@ -1,10 +1,15 @@
 const express = require('express');
 const app = express();
-app.use()
+
+const PORT = 7770;
+const HOST = '0.0.0.0';
+
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/public/index.html");
 });
 
-app.listen(8080, () => {
-    console.log("Server is live on 8080");
+app.listen(PORT, HOST, () => {
+    console.log("Server is live on http://"+HOST+":"+PORT);
 })
